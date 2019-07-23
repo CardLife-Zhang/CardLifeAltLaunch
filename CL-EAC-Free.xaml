@@ -12,7 +12,7 @@
             <ColumnDefinition Width="619*"/>
         </Grid.ColumnDefinitions>
         <Grid.Background>
-            <ImageBrush ImageSource="Resources/X_Image_LoadingScreen-resources.assets-1577.png" Stretch="UniformToFill"/>
+            <ImageBrush ImageSource="Resources/X_Image_LoadingScreen-resources.assets-1577.jpg" Stretch="UniformToFill"/>
         </Grid.Background>
         <Rectangle Height="79" Margin="41,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="290" Grid.ColumnSpan="2">
             <Rectangle.Fill>

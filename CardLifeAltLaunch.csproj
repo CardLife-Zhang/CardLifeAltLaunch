@@ -102,10 +102,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\X_Image_LoadingScreen-resources.assets-1577.png" />
+    <Resource Include="Resources\CardlifeLogo_Cardboard-resources.assets-1106.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\CardlifeLogo_Cardboard-resources.assets-1106.png" />
+    <Resource Include="Resources\X_Image_LoadingScreen-resources.assets-1577.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
