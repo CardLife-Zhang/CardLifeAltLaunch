@@ -8,7 +8,7 @@ Official CardLife servers will NOT be accessible due to the lack of EAC.
 
 
 ## Response from Mark Simmons
-On 2017-07-25, CardLife-Zhang sent an email to Mark Simmons at FreeJam, asking about the possibility of making modifications to CardLife. The same day Mark responded, and the response that CardLife-Zhang received is as follows:
+On 2019-07-25, CardLife-Zhang sent an email to Mark Simmons at FreeJam, asking about the possibility of making modifications to CardLife. The same day Mark responded, and the response that CardLife-Zhang received is as follows:
 
 > Regarding your question. We are OK with anyone in the community making any 
 > modifications to CardLife that they wish as long as the following core 
