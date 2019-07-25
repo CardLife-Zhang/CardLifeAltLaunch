@@ -13,11 +13,11 @@ On 2017-07-25, CardLife-Zhang sent an email to Mark Simmons at FreeJam, asking a
 > Regarding your question. We are OK with anyone in the community making any 
 > modifications to CardLife that they wish as long as the following core 
 > rules are followed:
-
+>
 > 1 - These modifications are free and not monetized
-
+>
 > 2 - These modified versions do not circumvent the user needing to buy an original copy of the game via Steam
-
+>
 > As long as this is the case we are happy.
 
 Thus all development must be on this basis. Thank you Mark @ FreeJam!
