@@ -91,6 +91,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="README.MD" />
     <Resource Include="CustomFonts\PermanentMarker.ttf" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

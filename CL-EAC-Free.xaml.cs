@@ -47,7 +47,7 @@ namespace CardLifeAltLaunch
         private void Launch()
         {
             ProcessStartInfo psi = new ProcessStartInfo();
-            psi.FileName = "cardlife.exe";
+            psi.FileName = "D:\\CL\\cardlife_mod.exe";
             psi.Arguments = authdata.PublicId + " " + authdata.Token;
 
             Process p = new Process();
