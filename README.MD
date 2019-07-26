@@ -2,7 +2,7 @@
 This launcher is designed to allow you to patch and play CardLife without EasyAntiCheat (EAC) getting in the way. This is very much a work in progress!
 
 ## Limitations
-You must have a CardLife account through the standalone Launcher. Steam accounts will be supported when someone gets around to figuring out how best to make that work.
+You must have a CardLife account through the standalone Launcher. Steam accounts will be supported when someone gets around to figuring out how best to make that work .
 
 Official CardLife servers will NOT be accessible due to the lack of EAC.
 
