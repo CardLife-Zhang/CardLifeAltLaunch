@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CardLifeAltLaunch
 {
-    class auth
+    public class CAuthentificationData
     {
         public string PublicId { get; set; }
         public string EmailAddress { get; set; }

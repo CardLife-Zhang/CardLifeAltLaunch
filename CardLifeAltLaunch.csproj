@@ -24,6 +24,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -37,6 +38,7 @@
   <ItemGroup>
     <Reference Include="RestSharp, Version=106.6.10.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL">
       <HintPath>packages\RestSharp.106.6.10\lib\net452\RestSharp.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -59,7 +61,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="CL-EAC-Free.xaml">
+    <Compile Include="Basics\CSharp\SecurityHelper.cs" />
+    <Compile Include="Basics\WPF\ViewModel.cs" />
+    <Compile Include="Basics\WPF\VMCommand.cs" />
+    <Compile Include="CardLife\CAuthenticator.cs" />
+    <Compile Include="CardLife\CLauncher.cs" />
+    <Compile Include="CardLife\EAuthentificationState.cs" />
+    <Compile Include="CardLife\EMessageType.cs" />
+    <Compile Include="Basics\WPF\Converters\EmptyVisibilityConverter.cs" />
+    <Compile Include="Basics\WPF\Converters\NullVisibilityConverter.cs" />
+    <Compile Include="GUI\VMAuthentification.cs" />
+    <Page Include="GUI\CL-EAC-Free.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -67,13 +79,13 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="CL-EAC-Free.xaml.cs">
+    <Compile Include="GUI\CL-EAC-Free.xaml.cs">
       <DependentUpon>CL-EAC-Free.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="auth.cs" />
+    <Compile Include="CardLife\CAuthentificationData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -91,7 +103,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="README.MD" />
     <Resource Include="CustomFonts\PermanentMarker.ttf" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -103,10 +114,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\CardlifeLogo_Cardboard-resources.assets-1106.png" />
+    <Resource Include="GUI\Resources\X_Image_LoadingScreen-resources.assets-1577.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\X_Image_LoadingScreen-resources.assets-1577.jpg" />
+    <Resource Include="GUI\Resources\CardlifeLogo_Cardboard-resources.assets-1106.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

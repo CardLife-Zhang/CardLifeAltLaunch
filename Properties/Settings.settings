@@ -5,5 +5,8 @@
     <Setting Name="emailAddress" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
+    <Setting Name="CardLifeExeLocation" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">cardlife.exe</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

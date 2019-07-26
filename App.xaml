@@ -2,8 +2,16 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:CardLifeAltLaunch"
-             StartupUri="CL-EAC-Free.xaml">
+             StartupUri="GUI/CL-EAC-Free.xaml">
     <Application.Resources>
-         
+        <local:NullVisibilityConverter Reverse="False" HideType="Hidden" x:Key="NVCHideWhenNull"/>
+        <local:NullVisibilityConverter Reverse="False" HideType="Collapsed" x:Key="NVCCollapseWhenNull"/>
+        <local:NullVisibilityConverter Reverse="True" HideType="Hidden" x:Key="NVCHideWhenNotNull"/>
+        <local:NullVisibilityConverter Reverse="True" HideType="Collapsed" x:Key="NVCCollapseWhenNotNull"/>
+
+        <local:EmptyVisibilityConverter Reverse="False" HideType="Hidden" x:Key="NVCHideWhenEmpty"/>
+        <local:EmptyVisibilityConverter Reverse="False" HideType="Collapsed" x:Key="NVCCollapseWhenEmpty"/>
+        <local:EmptyVisibilityConverter Reverse="True" HideType="Hidden" x:Key="NVCHideWhenNotEmpty"/>
+        <local:EmptyVisibilityConverter Reverse="True" HideType="Collapsed" x:Key="NVCCollapseWhenNotEmpty"/>
     </Application.Resources>
 </Application>
