@@ -153,4 +153,7 @@
   <data name="MAINWIN_PLAYING" xml:space="preserve">
     <value>Playing</value>
   </data>
+  <data name="MAINWIN_PREPATCH" xml:space="preserve">
+    <value>Wait - checking sanity</value>
+  </data>
 </root>

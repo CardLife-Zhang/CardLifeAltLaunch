@@ -8,5 +8,11 @@
     <Setting Name="CardLifeExeLocation" Type="System.String" Scope="Application">
       <Value Profile="(Default)">cardlife.exe</Value>
     </Setting>
+    <Setting Name="ModFilenameBase" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ModCardLife</Value>
+    </Setting>
+    <Setting Name="CardLifeDataLocation" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CardLife_Data</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

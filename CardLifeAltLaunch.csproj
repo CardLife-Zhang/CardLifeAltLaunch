@@ -66,6 +66,8 @@
     <Compile Include="Basics\WPF\VMCommand.cs" />
     <Compile Include="CardLife\CAuthenticator.cs" />
     <Compile Include="CardLife\CLauncher.cs" />
+    <Compile Include="CardLife\CPatcher.cs" />
+    <Compile Include="CardLife\CPrePatch.cs" />
     <Compile Include="CardLife\EAuthentificationState.cs" />
     <Compile Include="CardLife\EMessageType.cs" />
     <Compile Include="Basics\WPF\Converters\EmptyVisibilityConverter.cs" />
@@ -114,11 +116,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="GUI\Resources\X_Image_LoadingScreen-resources.assets-1577.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="GUI\Resources\CardlifeLogo_Cardboard-resources.assets-1106.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="GUI\Resources\X_Image_LoadingScreen-resources.assets-1577.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
